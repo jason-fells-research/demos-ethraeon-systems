@@ -130,8 +130,11 @@
         </div>
         
         <footer>
-            <p>&copy; 2025 Ethraeon Systems. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Ethraeon Systems. All rights reserved.</p>
         </footer>
     </div>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
