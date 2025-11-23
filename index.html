@@ -1,147 +1,57 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>ETHRAEON · Demos Hub</title>
-  <meta name="description" content="Safe demos for partners and investors."/>
-  <style>
-    :root{
-      --bg:#0b1220; --panel:#0f1830; --ink:#e6e9f2; --muted:#9aa3b2;
-      --accent:#3b82f6; --brand:#5b21b6; --purple:#8b5cf6;
-      --ring:rgba(59,130,246,.25);
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial;
-      color:var(--ink); background:radial-gradient(1200px 600px at 20% -10%,
-      #1a2752 0%, transparent 60%), var(--bg);
-    }
-    .wrap{max-width:1120px; margin:0 auto; padding:32px 20px 80px}
-    header{
-      display:flex; align-items:center; gap:16px; padding:10px 0 22px;
-      border-bottom:1px solid rgba(255,255,255,.08);
-    }
-    .logo{
-      width:44px; height:44px; display:grid; place-items:center; border-radius:12px;
-      background:linear-gradient(145deg, rgba(139,92,246,.18), rgba(59,130,246,.18));
-      box-shadow:0 0 0 1px rgba(139,92,246,.35) inset, 0 8px 30px rgba(0,0,0,.25);
-    }
-    h1{
-      margin:0; font-weight:700; letter-spacing:.4px; font-size:22px;
-      background:linear-gradient(90deg, var(--purple), var(--accent));
-      -webkit-background-clip:text; color:transparent;
-    }
-    .sub{color:var(--muted); font-size:14px; margin-top:2px}
-    .grid{display:grid; gap:16px; margin-top:22px; grid-template-columns:repeat(12,1fr)}
-    .card{
-      grid-column:span 12; background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-      border:1px solid rgba(255,255,255,.08); border-radius:14px; padding:18px;
-      display:flex; flex-direction:column; gap:10px;
-      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
-    }
-    .card:hover{transform:translateY(-2px); box-shadow:0 10px 32px rgba(0,0,0,.25); border-color:rgba(59,130,246,.35)}
-    .muted{color:var(--muted)}
-    .kicker{display:inline-flex; align-items:center; gap:8px; font-size:12px; color:#cbd5e1; letter-spacing:.2px; text-transform:uppercase;}
-    .kdot{width:6px; height:6px; border-radius:999px; background:var(--accent); box-shadow:0 0 0 4px var(--ring)}
-    .title{font-size:18px; font-weight:700; letter-spacing:.2px}
-    .cta{margin-top:2px; display:inline-flex; align-items:center; gap:10px;
-      background:linear-gradient(90deg, var(--accent), var(--purple)); border:none; color:white; text-decoration:none; padding:10px 14px;
-      border-radius:10px; width:max-content; font-weight:600; box-shadow:0 6px 20px rgba(59,130,246,.3);}
-    .cta:hover{filter:brightness(1.05)}
-    .meta{display:flex; gap:14px; flex-wrap:wrap; font-size:12px; color:#cbd5e1}
-    .pill{padding:4px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.12)}
-    .soon{opacity:.55; position:relative; overflow:hidden}
-    .soon::after{content:"COMING SOON"; position:absolute; right:-10px; top:10px;
-      font-size:11px; letter-spacing:.8px; transform:rotate(2deg);
-      color:#d1c4ff; background:rgba(91,33,182,.16); border:1px solid rgba(139,92,246,.35);
-      padding:4px 8px; border-radius:8px;}
-    @media (min-width:740px){.card{grid-column:span 6}}
-    @media (min-width:1040px){.card{grid-column:span 4}}
-    footer{margin-top:40px; padding-top:18px; border-top:1px solid rgba(255,255,255,.08);
-      text-align:center; color:#cbd5e1; font-size:12px;}
-    .motto{margin:10px 0 6px; font-weight:700; letter-spacing:1px}
-    .small{color:#96a0b2}
-    .card a{color:inherit; text-decoration:none}
-  </style>
-</head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ethraeon — Demo Hub</title>
+<link rel="stylesheet" href="/assets/brand.css" />
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo" aria-hidden="true">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-label="ETHRAEON">
-          <defs>
-            <linearGradient id="g" x1="0" y1="0" x2="28" y2="28">
-              <stop offset="0" stop-color="#8b5cf6"/>
-              <stop offset="1" stop-color="#3b82f6"/>
-            </linearGradient>
-          </defs>
-          <circle cx="14" cy="14" r="11.5" stroke="url(#g)" stroke-width="1.5" opacity=".9"/>
-          <ellipse cx="14" cy="14" rx="7.5" ry="3.5" stroke="url(#g)" stroke-width="1.5" opacity=".6"/>
-          <circle cx="19.6" cy="12.2" r="2.1" fill="url(#g)"/>
-        </svg>
-      </div>
-      <div>
-        <h1>ETHRAEON · Demos Hub</h1>
-        <div class="sub">Safe, governed demos for partners &amp; investors</div>
-      </div>
-    </header>
+<div class="wrap">
+  <header class="hero">
+    <h1>Ethraeon Demos</h1>
+    <p class="lead">Governance baked in: simple, inspectable demos that map to real workflows.</p>
+  </header>
 
-    <section class="grid">
-      <article class="card">
-        <div class="kicker"><span class="kdot"></span> Recursive Reasoning · Ethics</div>
-        <div class="title">Decision Insight Model (DIM)</div>
-        <p class="muted">A reasoning shell that makes value trade-offs and ethical gates legible. Useful for audits and "explain why."</p>
-        <div class="meta"><span class="pill">Governance</span><span class="pill">Traceability</span></div>
-        <a class="cta" href="https://chatgpt.com/g/g-686f0346f0fc8191bd6cbba15a77d07e-decision-insight-model-demo-shell-git?model=gpt-4o" target="_blank" rel="noopener">Open Demo</a>
-      </article>
+  <main class="grid">
+    <a class="card" href="/demos/personality-showcase.html" style="grid-column: 1 / -1; border: 2px solid #2bd4c5; background: linear-gradient(135deg, #111317 0%, #1a1f2e 100%);">
+      <h2>🦋 Personality Showcase — Demo 01</h2>
+      <p>Meet the 20 living personalities behind ETHRAEON. Industry-first personality-aware AI with "How It Got Its Wings" origin stories. Interactive, beautiful, magical.</p>
+      <span class="pill" style="background:#2bd4c5;color:#000;font-weight:700">✨ NEW • Flagship Demo</span>
+    </a>
 
-      <article class="card">
-        <div class="kicker"><span class="kdot"></span> Boundary Enforcement</div>
-        <div class="title">Recursive OS (Boundary Demo)</div>
-        <p class="muted">Shows how we enforce constraints before generation, with human-in-the-loop checkpoints.</p>
-        <div class="meta"><span class="pill">Controls</span><span class="pill">Safety</span></div>
-        <a class="cta" href="https://chatgpt.com/g/g-686dda39104881918c1b8095aaf7d165-recursive-os-demo-shell-git?model=gpt-4o" target="_blank" rel="noopener">Open Demo</a>
-      </article>
+    <a class="card" href="/demos/factpulse.html">
+      <h2>FactPulse Pro</h2>
+      <p>Score risk & surface signals/actions. Logs a lightweight event to the demo DB.</p>
+      <span class="pill">Interactive</span>
+    </a>
 
-      <article class="card">
-        <div class="kicker"><span class="kdot"></span> Empathy · Neurodiversity</div>
-        <div class="title">Dyslexic for a Day</div>
-        <p class="muted">A brief, respectful simulation to prime teams for accessibility thinking across flows.</p>
-        <div class="meta"><span class="pill">Accessibility</span><span class="pill">UX</span></div>
-        <a class="cta" href="https://codepen.io/Jason-Fells/live/xbwzYQK/270e1b9dc268312cd7b86da7451f2f9f" target="_blank" rel="noopener">Open Demo</a>
-      </article>
+    <a class="card" href="/demos/constitutional-bias.html">
+      <h2>Constitutional Bias</h2>
+      <p>Run a simulated audit, view the bundle, export JSON/CSV — via a clean modal.</p>
+      <span class="pill">Interactive</span>
+    </a>
 
-      <article class="card">
-        <div class="kicker"><span class="kdot"></span> Orchestration · Time</div>
-        <div class="title">Temporal Coordination (POC)</div>
-        <p class="muted">Human/machine timing demo — orchestration windows, deferrals, and safe handoffs.</p>
-        <div class="meta"><span class="pill">Orchestration</span><span class="pill">Handoff</span></div>
-        <a class="cta" href="https://codepen.io/Jason-Fells/live/raOjqGX/63c7ac7da5ecc4528f4279391b6601cc" target="_blank" rel="noopener">Open Demo</a>
-      </article>
+    <a class="card" href="/demos/field-triage.html">
+      <h2>Field Triage</h2>
+      <p>Log incidents, auto-score severity w/ keyword weighting, get next steps + refs.</p>
+      <span class="pill">Interactive</span>
+    </a>
 
-      <article class="card">
-        <div class="kicker"><span class="kdot"></span> Visual Shell</div>
-        <div class="title">ETHRAEON AI Platform (UI Shell)</div>
-        <p class="muted">The safe visual shell used in our pilots. Non-PII, auditable phrasing, and clean flows.</p>
-        <div class="meta"><span class="pill">UI</span><span class="pill">Audit</span></div>
-        <a class="cta" href="https://ethraeon-ai-platform.vercel.app/" target="_blank" rel="noopener">Open Demo</a>
-      </article>
+    <a class="card" href="/demos/ecotrack.html">
+      <h2>EcoTrack Pro</h2>
+      <p>Snapshot baseline→current deltas; propose one-click playbook actions (simulated send).</p>
+      <span class="pill">Interactive</span>
+    </a>
 
-      <article class="card soon">
-        <div class="kicker"><span class="kdot"></span> Micro-SaaS · Compliance</div>
-        <div class="title">LegalBot Lite</div>
-        <p class="muted">EU-friendly legal templates with Stripe checkout, PDF generation, and email delivery. MVP packaged for pilot.</p>
-        <div class="meta"><span class="pill">Stripe</span><span class="pill">PDF</span><span class="pill">Serverless</span></div>
-        <a class="cta" style="pointer-events:none; opacity:.7" href="#" aria-disabled="true">Preview</a>
-      </article>
-    </section>
+    <a class="card" href="/demos/constitutional-framework.html">
+      <h2>Ethraeon Framework</h2>
+      <p>How the demos map to our principle set & deployment model. Teal links for readability.</p>
+      <span class="pill">Explainer</span>
+    </a>
+  </main>
 
-    <footer>
-      <div class="motto">CONCORDIA PER TECHNOLOGIAM · HUMANITAS PER SAPIENTIAM</div>
-      <div class="small">ETHRAEON SYSTEMS · <a href="mailto:hello@ethraeon.systems" style="color:#cbd5e1">hello@ethraeon.systems</a> · https://ethraeon.systems</div>
-    </footer>
-  </div>
+  <footer class="small" style="opacity:.75;margin-top:24px">
+    One link to share: <b>demos.ethraeon.systems</b>. Each tile opens a focused demo.
+  </footer>
+</div>
 </body>
 </html>
