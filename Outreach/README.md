@@ -4,10 +4,11 @@ Each wave includes:
 - **Quickshare files** (`_quickshare.txt`) → short LinkedIn/WhatsApp one-liners.  
 
 ---
-- [Linus draft](WaveA/linus.txt) | [Quickshare](WaveA/linus_quickshare.txt)  
 - [Michiel draft](WaveA/michiel.txt) | [Quickshare](WaveA/michiel_quickshare.txt)  
 - [Andrea draft](WaveA/andrea.txt) | [Quickshare](WaveA/andrea_quickshare.txt)  
 - [Mauro draft](WaveA/mauro.txt) | [Quickshare](WaveA/mauro_quickshare.txt)  
+- [April, Mark and Todd draft](WaveA/april_mark_todd.txt) | [Quickshare](WaveA/april_mark_todd_quickshare.txt)  
+- [Virginia draft](WaveA/virginia.txt) | [Quickshare](WaveA/virginia_quickshare.txt)  
 - [Luigi draft](WaveB/luigi.txt) | [Quickshare](WaveB/luigi_quickshare.txt)  
 - [Peter Karlsson draft](WaveB/peter.txt) | [Quickshare](WaveB/peter_quickshare.txt)  
 - [Heather draft](WaveB/heather.txt) | [Quickshare](WaveB/heather_quickshare.txt)  
@@ -22,12 +23,10 @@ Each wave includes:
 
 ---
 - 🌐 Demo Index → https://demos.ethraeon.systems/  
-- 📑 Framework Explainer → https://demos.ethraeon.systems/demos/constitutional-framework  
 ---
 - [ ] Review draft — tweak first 1–2 lines for personalization.  
 - [ ] Verify demo links open:  
   - [Demo Index](https://demos.ethraeon.systems/)  
-  - [Framework Explainer](https://demos.ethraeon.systems/demos/constitutional-framework)  
 - [ ] Paste signature with your full name (add ORCID footer later if desired).  
 - [ ] Attach latest one-pagers (Investor, Framework).  
 - [ ] Send ✅

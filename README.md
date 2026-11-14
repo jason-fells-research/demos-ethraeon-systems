@@ -4,11 +4,11 @@ The site of demos.ethraeon.systems on Netlify.
 
 ## Contents
 
-`index.html`, `whoami.html`, `netlify.toml`, `package.json`, `assets/` (2), `data/` (4), `demos/` (7), `ethraeon-demos/` (15), `netlify/` (5), `Outreach/` (38) and a README (36 bytes) (77 files in all).
+`index.html`, `whoami.html`, `netlify.toml`, `package.json`, `assets/` (2), `data/` (4), `demos/` (7), `ethraeon-demos/` (17), `netlify/` (9), `Outreach/` (38) and a README (86 files in all).
 
-## Next step
+## Place in the estate
 
-Register action `PUBLIC_TO_PRIVATE`, destination `ethraeon-canonical-app/estate/demos/`. It is public today. After the stop card its visibility changes to private, and the sidecar moves its content to the destination, verified by hash.
+Estate area: demos. Application repository: Ethraeon-Systems/ethraeon-canonical-app.
 
 ## Contact
 
