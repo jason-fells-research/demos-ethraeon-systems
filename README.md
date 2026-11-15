@@ -6,9 +6,9 @@ The site of demos.ethraeon.systems on Netlify.
 
 `index.html`, `whoami.html`, `netlify.toml`, `package.json`, `assets/` (2), `data/` (4), `demos/` (7), `ethraeon-demos/` (17), `netlify/` (9), `Outreach/` (38) and a README (86 files in all).
 
-## Place in the estate
+## Planned place in the estate
 
-Estate area: demos. Application repository: Ethraeon-Systems/ethraeon-canonical-app.
+Planned estate area: demos. It is public today. After the stop card its visibility changes to private, and its content moves to that area, verified by hash.
 
 ## Contact
 

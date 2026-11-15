@@ -2,8 +2,7 @@ Core audience: lead investor / deep-tech / build-partners.
 - [Michiel](michiel.txt) · [Quickshare](michiel_quickshare.txt)
 - [Andrea](andrea.txt) · [Quickshare](andrea_quickshare.txt)
 - [Mauro](mauro.txt) · [Quickshare](mauro_quickshare.txt)
-- [April, Mark and Todd](april_mark_todd.txt) · [Quickshare](april_mark_todd_quickshare.txt)
-- [Virginia](virginia.txt) · [Quickshare](virginia_quickshare.txt)
+- Further drafts and quickshare files are in this folder.
 - Demo Index → https://demos.ethraeon.systems/
 
 ---

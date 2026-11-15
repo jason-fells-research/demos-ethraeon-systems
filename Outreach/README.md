@@ -7,8 +7,7 @@ Each wave includes:
 - [Michiel draft](WaveA/michiel.txt) | [Quickshare](WaveA/michiel_quickshare.txt)  
 - [Andrea draft](WaveA/andrea.txt) | [Quickshare](WaveA/andrea_quickshare.txt)  
 - [Mauro draft](WaveA/mauro.txt) | [Quickshare](WaveA/mauro_quickshare.txt)  
-- [April, Mark and Todd draft](WaveA/april_mark_todd.txt) | [Quickshare](WaveA/april_mark_todd_quickshare.txt)  
-- [Virginia draft](WaveA/virginia.txt) | [Quickshare](WaveA/virginia_quickshare.txt)  
+- Further drafts and quickshare files are in `WaveA/`.  
 - [Luigi draft](WaveB/luigi.txt) | [Quickshare](WaveB/luigi_quickshare.txt)  
 - [Peter Karlsson draft](WaveB/peter.txt) | [Quickshare](WaveB/peter_quickshare.txt)  
 - [Heather draft](WaveB/heather.txt) | [Quickshare](WaveB/heather_quickshare.txt)  
