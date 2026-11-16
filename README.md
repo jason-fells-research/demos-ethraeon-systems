@@ -4,7 +4,7 @@ The site of demos.ethraeon.systems on Netlify.
 
 ## Contents
 
-`index.html`, `whoami.html`, `netlify.toml`, `package.json`, `assets/` (2), `data/` (4), `demos/` (7), `ethraeon-demos/` (17), `netlify/` (9), `Outreach/` (38) and a README (86 files in all).
+`index.html`, `whoami.html`, `netlify.toml`, `package.json`, `assets/` (2), `data/` (4), `demos/` (7), `ethraeon-demos/` (17), `netlify/` (9) and a README (48 files in all).
 
 ## Planned place in the estate
 
